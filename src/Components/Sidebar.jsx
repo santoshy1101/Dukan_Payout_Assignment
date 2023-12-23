@@ -1,5 +1,5 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
-import company_logo from "../assets/company_logo.png";
+import { Box, Flex, Text } from '@chakra-ui/react'
+import company_logo from '../assets/company_logo.png'
 
 export function Sidebar() {
   return (
@@ -12,7 +12,6 @@ export function Sidebar() {
       flex="1 1 0"
       bg="#1E2640"
       h="100vh"
-      
     >
       <Flex w="192px" alignItems="center" gap="12px">
         <Box
@@ -71,6 +70,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -100,6 +101,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -147,6 +150,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -176,6 +181,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -225,6 +232,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -268,6 +277,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -317,7 +328,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
-          bg="rgba(255, 255, 255, 0.10)"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -347,6 +359,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -395,6 +409,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -444,6 +460,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -496,6 +514,8 @@ export function Sidebar() {
           lineHeight="20px"
           opacity="0.8"
           borderRadius="4px"
+          _hover={{ bg: 'rgba(255, 255, 255, 0.10)' }}
+          cursor="pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -571,5 +591,5 @@ export function Sidebar() {
         </Flex>
       </Flex>
     </Flex>
-  );
+  )
 }
